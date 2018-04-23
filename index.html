@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=Droid+Serif|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" href="css/reset.css">
+	<!-- CSS reset -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Resource style -->
+	<link rel="stylesheet" href="css/demo.css">
+	<!-- Demo style -->
+
+	<title>My WeChat History With My Mother For A Year</title>
+</head>
+
+<body>
+	<header>
+
+
+		<div class="MainTitle"> My WeChat History With My Mother For A Year</div>
+		<div class="wrapper">
+			<canvas id="line-chart" width="1600" height="900"></canvas>
+		</div>
+		<!-- <div class="cd-nugget-info">
+			<a href="https://codyhouse.co/gem/vertical-timeline/">
+				<span>
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px" viewBox="0 0 16 16" style="enable-background:new 0 0 16 16;" xml:space="preserve">
+						<style type="text/css">
+							.cd-nugget-info-arrow{fill:#383838;}
+						</style>
+						<polygon class="cd-nugget-info-arrow" points="15,7 4.4,7 8.4,3 7,1.6 0.6,8 0.6,8 0.6,8 7,14.4 8.4,13 4.4,9 15,9 "/>
+					</svg>
+				</span>
+				Article &amp; Download
+			</a>
+		</div> -->
+
+	</header>
+
+	<section class="cd-timeline js-cd-timeline">
+		<div class="cd-timeline__container">
+			<div class="cd-timeline__block js-cd-block">
+
+
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+				<!-- <img src="img/cd-icon-picture.svg" alt="Picture"> -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart1" width="800" height="450"></canvas>
+
+
+					<h2>October, 23rd 2016</h2>
+					<p>We had a fight about this thing again.</p>
+					<div id="0" style="display:none">
+						<p>I do not even remember how many times exactly I have had a fight with my mom over this topic — Me being okay with my bedroom in a mess vs. my mom being extremely unsatisfied. I guess she was trying to clean up my bedroom again since I left home
+							for school. And I realized I must have done something really wrong when I saw her extraordinary long angry WeChat messages. She found a shirt of mine with a large smudge. “You could have cleaned it up the time you got it on your shirt! Now it is
+							so hard to wash!” Following that were her complaints about my previous similar “crimes”. My solution to her anger was being silent. Though I have to say what I have done was totally gross….</p>
+					</div>
+					<a href="#0" class="cd-timeline__read-more">Read more</a>
+					<span class="cd-timeline__date">October, 2016</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart2" width="800" height="450"></canvas>
+					<!-- <h2>Title of section 2</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde?</p> -->
+
+					<span class="cd-timeline__date">November, 2016</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart3" width="800" height="450"></canvas>
+					<!-- <h2>Title of section 3</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, obcaecati, quisquam id molestias eaque asperiores voluptatibus cupiditate error assumenda delectus odit similique earum voluptatem doloremque dolorem ipsam quae rerum quis. Odit,
+						itaque, deserunt corporis vero ipsum nisi eius odio natus ullam provident pariatur temporibus quia eos repellat consequuntur perferendis enim amet quae quasi repudiandae sed quod veniam dolore possimus rem voluptatum eveniet eligendi quis fugiat
+						aliquam sunt similique aut adipisci.</p> -->
+
+					<span class="cd-timeline__date">December, 2016</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<!-- <img src="img/cd-icon-location.svg" alt="Location"> -->
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart4" width="800" height="450"></canvas>
+					<!-- <h2>Title of section 4</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum aut hic quasi placeat iure tempora laudantium ipsa ad debitis unde? Iste voluptatibus minus veritatis qui ut.</p> -->
+
+					<span class="cd-timeline__date">January, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<!-- <img src="img/cd-icon-location.svg" alt="Location"> -->
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart5" width="800" height="450"></canvas>
+					<!-- <h2>Title of section 5</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p> -->
+
+					<span class="cd-timeline__date">February, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--location js-cd-img">
+					<!-- <img src="img/cd-icon-location.svg" alt="Location"> -->
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart6" width="800" height="450"></canvas>
+					<!-- <h2>Final Section</h2>
+					<p>This is the content of the last section</p> -->
+					<span class="cd-timeline__date">March, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart7" width="800" height="450"></canvas>
+					<!-- <h2>Title of section 5</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, optio, dolorum provident rerum.</p> -->
+
+					<span class="cd-timeline__date">April, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart8" width="800" height="450"></canvas>
+					<h2>May, 26th 2017</h2>
+					<p>Tomorrow would be my commencement.</p>
+					<div id="1" style="display:none">
+						<p>Mom and Zhang took the bullet-train from home to Shanghai and I promised to pick them up at the train station. I took the subway for about an hour and arrived earlier than their estimated arriving time. I was waiting in front of the south gate.
+							They arrived at the north gate of the station. And I was having problem getting to the north gate, which got me extremely anxious and annoyed. Mom was complaining that I could have figured out earlier which gate they would be getting out from so
+							we could saved much more time. I was on the other hand upset and angry about her being mad at me. I always become the most impatient person on the world in front of my mom and I feel like she is like that too. </div>
+					<a href="#1" class="cd-timeline__read-more">Read more</a>
+
+					<span class="cd-timeline__date">May, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart9" width="800" height="450"></canvas>
+					<h2>June, 24th 2017</h2>
+					<p>I was taught a long lesson by Mom.</p>
+					<div id="2" style="display:none">
+						<p>I must have argued something about politics the other day face to face with Mom. Because although I did not remember exactly the topic we had, her tone sounded like I had strongly disagreed with her perspectives on politics or some sort of social
+							issues. We always had fight over social events. And for many of the times, we disagree with each other. I often got super offended and became sad about the fact that my mom could not agree with values I deeply believe in. But now as I think about
+							these things, I am glad that I could share and exchange ideas with her about all these things that matter to me.</p>
+					</div>
+					<a href="#2" class="cd-timeline__read-more">Read more</a>
+
+					<span class="cd-timeline__date">June, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart10" width="800" height="450"></canvas>
+					<h2>July 10th, 14th and 25th 2017</h2>
+					<p>When we were together, we had more fights.</p>
+					<div id="3" style="display:none">
+						<p>I do not know if this is true for other daughter-and-mother relationships, for me and my mom, we fight much often when we are together with each other. I at least had three fights with Mom in just two weeks. We could fight over something tiny little
+							issues in daily life. We also argued about politics quite often. There were always things that we are unsatisfied with each other. If I could, I wish I would never make my mom angry because of me. But I think it is extremely hard. Love does not
+							only produce happiness, doesn’t it?</p>
+					</div>
+					<a href="#3" class="cd-timeline__read-more">Read more</a>
+
+
+					<span class="cd-timeline__date">July, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart11" width="800" height="450"></canvas>
+
+
+					<span class="cd-timeline__date">August, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+			<div class="cd-timeline__block js-cd-block">
+
+				<div class="cd-timeline__img cd-timeline__img--picture js-cd-img">
+				</div>
+				<!-- cd-timeline__img -->
+
+				<div class="cd-timeline__content js-cd-content">
+					<canvas id="pie-chart12" width="800" height="450"></canvas>
+
+
+					<span class="cd-timeline__date">September, 2017</span>
+				</div>
+				<!-- cd-timeline__content -->
+			</div>
+			<!-- cd-timeline__block -->
+
+		</div>
+	</section>
+	<!-- cd-timeline -->
+
+	<script src="js/main.js"></script>
+	<!-- Resource JavaScript -->
+
+	<footer>
+		<p>Student Project For</p>
+		<a href="https://github.com/joeyklee/quant-humanists-2018/blob/master/SYLLABUS.md/">
+		Quant Humanists: the 'I' in API
+		 </a>
+		<br><br>
+		<p>References</p>
+
+		<a href="http://www.chartjs.org/samples/latest/">
+			Chart.JS</a> | <a href="http://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/">
+				TOBIAS AHLIN</a> | <a href="https://codyhouse.co/gem/vertical-timeline/">
+					CodyHouse</a><br><br>
+
+
+
+		<p>Special Thanks</p>
+		<p>Aurelia Moser & Joey Lee</p>
+		<br>
+		<p>@2018</p>
+		<a href="http://xiranyang.com">
+ 				Xiran Y.</a> <br>
+
+	</footer>
+</body>
+
+</html>
